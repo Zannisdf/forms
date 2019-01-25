@@ -1,2 +1,7 @@
 <h1>Students#new</h1>
-<p>Find me in app/views/students/new.html.erb</p>
+
+<form action="<%= students_create_path %>">
+  <input type="text" name="name">
+  <input type="number" name="age">
+  <input type="submit" value="crear">
+</form>
